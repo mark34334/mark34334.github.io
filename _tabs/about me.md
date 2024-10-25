@@ -15,5 +15,5 @@ Hi, I'm Loki!,  Welcome to my personal website and blog. Here, I share my journe
 * **Resources**: Useful tools, scripts, and references that I find helpful in my cybersecurity journey. 
 
 
-> This site is still under development. Please check back soon for more updates and content! 
+> his site is still under development. Please check back soon for more updates and content! 
  {: .prompt-tip }
