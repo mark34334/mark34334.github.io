@@ -1,6 +1,6 @@
 ---
 title: "Exploring Cybersecurity in Cloud Environments"
-date: 2024-10-25 10:00:00 +0000
+date: 2024-10-25 14:31:00 +0530
 categories: [Cybersecurity, Cloud]
 tags: [cloud-security, ransomware, detection]
 ---
