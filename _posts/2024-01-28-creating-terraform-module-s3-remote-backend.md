@@ -3,16 +3,13 @@ title: "Creating a Terraform Module for S3 Remote Backend with DynamoDB State Lo
 date: 2024-01-28 08:00:00 - 0500
 categories: [AWS, Terraform]
 tags: [terraform, aws, s3, dynamodb, state management]
-image:
-  path: /assets/img/headers/terraform-module-backend.webp
-  lqip: data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAMAAADNLv/0AAAAsVBMVEWhnKWemKWnpqarp6GopqSnp6exsbC2t7axsbGXk56Mg5ulo5/Js3atp5qysrTl5ODis7Xr1tbe4N+am6GRk5+en6SemZyfmqG6sq7y6N3kurzu29vj5OSdnZ6VlZejo6KXlJycl57AvLbAwuK5wOCoxZzGz8KampyMjJCkpKSYlpyZlZ28vLzZ2+fX2eXR3MzU19Ken5+RkpSlpaWioaKhoKKtra3BwcDCwsHDwsO6urqXTNlFAAAASUlEQVQIHQXBAwKAQBAAwI2Xbdt2/f9hzQBgOEFSNEIMsBwviJKsqBrohmnZjuv5AYRRnKRZXpQV1E3b9cM4zQus236c1/283w+Rewa3s/8M4gAAAABJRU5ErkJggg==
 ---
 
 Create a Terraform module that provisions an S3 bucket to store the terraform.tfstate file and a DynamoDB table to lock the state file to prevent concurrent modifications and state corruption.
 
 Setting up Terraform state management on AWS can be tricky. The process involves configuring a remote backend, which can be complex. If you’re new to Terraform and using an S3 bucket and DynamoDB for state management, you’ll face a challenge. You need to set up your resources with Terraform, but configuring the Terraform backend with Terraform is difficult, and is often referred to as the chicken and egg problem.
 
-> In a previous post, [Setting Up Terraform Remote Backend With AWS Using A Bash Script](/posts/terraform-remote-backend-bash-script/) I showed a solution using a Bash script to deploy AWS backend resources. This made starting your Terraform infrastructure faster and efficient. The Bash script creates the Terraform backend resources, then Terraform uses these resources for its backend. This ensures Terraform knows and manages its state with AWS resources effectively. Today, I’ll share another solution:
+> In a previous post,I showed a solution using a Bash script to deploy AWS backend resources. This made starting your Terraform infrastructure faster and efficient. The Bash script creates the Terraform backend resources, then Terraform uses these resources for its backend. This ensures Terraform knows and manages its state with AWS resources effectively. Today, I’ll share another solution:
 
 ## Creating a Reusable Terraform Module that Provisions the S3 Remote Backend
 
