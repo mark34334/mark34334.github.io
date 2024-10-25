@@ -1,6 +1,6 @@
 ---
 title: "Getting started with chirpy"
-date: 2024-10-25 11:00:00 +0000
+date: 2024-10-25 14:31:00 +0530
 categories: [Cybersecurity, Cloud]
 tags: [header, blog, first poost]
 ---
