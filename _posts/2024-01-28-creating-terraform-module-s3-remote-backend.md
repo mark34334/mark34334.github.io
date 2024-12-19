@@ -36,4 +36,4 @@ Setting up Terraform state management on AWS can be tricky. The process involves
 - [https://blog.digital.cloud](https://blog.digitalden.cloud/creating-a-terraform-module-for-s3-remote-backend-with-dynamodb-state-locking-17f1df067a8d)
 
 ## This post
-- This post was made to check and sovle the issue   
+- This post was made to check and sovle the issue.  
