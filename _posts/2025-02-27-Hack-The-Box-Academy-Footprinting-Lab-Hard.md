@@ -1,6 +1,6 @@
 ---
 title: "Hack The Box Academy: Footprinting Lab (Hard) — Walkthrough & Insights"
-date: 2025-02-25 02:00:00 - 0500
+date: 2025-02-27 02:00:00 - 0500
 categories: [ Hack_the_box , Academy , Footprinting]
 tags: [Footprinting, FTP, SSH , Hard]
 ---
