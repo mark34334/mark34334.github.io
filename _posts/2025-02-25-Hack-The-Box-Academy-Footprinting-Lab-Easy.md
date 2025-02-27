@@ -1,5 +1,5 @@
 ---
-title: "Hack The Box: Academy footprinting lab easy box"
+title: "Hack The Box Academy: Footprinting Lab (Easy) — Walkthrough & Insights"
 date: 2025-02-25 02:00:00 - 0500
 categories: [ Hack_the_box , Academy , Footprinting]
 tags: [Footprinting, FTP, SSH, Easy]
