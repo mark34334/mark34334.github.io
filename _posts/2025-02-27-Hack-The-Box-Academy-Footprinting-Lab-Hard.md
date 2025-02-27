@@ -36,7 +36,7 @@ using the telnet i connected to the pop3 service running on the port 110 and log
 ### Login as Tom
 
 Using the private key i login as tom! and make sure that id_rsa file is only access by owner!
-![alt text](/assets/img/Pasted image 20250227150823.png>)
+![alt text](</assets/img/Pasted image 20250227150823.png>)
 
 ```
 nano id_rsa
