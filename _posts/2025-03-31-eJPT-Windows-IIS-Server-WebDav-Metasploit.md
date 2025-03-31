@@ -5,6 +5,7 @@ categories: [ eJPT , Lab , Vulnerability Assessment]
 tags: [Footprinting, Easy]
 image:
     path: /assets/img/1.gif
+    alt: image
 ---
 
 ---
