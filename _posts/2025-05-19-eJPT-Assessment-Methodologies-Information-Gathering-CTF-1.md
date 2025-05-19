@@ -1,6 +1,6 @@
 ---
 title: "eJPT - Assessment Methodologies: Information Gathering CTF 1"
-date: 2025-05-18 00:00:00 - 0500
+date: 2025-05-19 00:00:00 - 0500
 categories: [ eJPT , Lab , Vulnerability Assessment]
 tags: [Footprinting, Easy]
 image:
@@ -154,7 +154,7 @@ END_TIME: Thu May  8 14:53:52 2025
 DOWNLOADED: 13836 - FOUND: 3
 ```
 
-based on the information we found with dirb we are able to find the flag on this path [`http://target.ine.local/wp-content/uploads/`](http://target.ine.local/wp-content/uploads/)  finally found the flag 3!!!
+based on the information we found with dirb we are able to find the flag on this path `http://target.ine.local/wp-content/uploads/` finally found the flag 3!!!
 
 ![alt text](/assets/img/image121212.png)
 
