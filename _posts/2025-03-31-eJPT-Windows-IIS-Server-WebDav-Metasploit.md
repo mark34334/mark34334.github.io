@@ -3,6 +3,9 @@ title: "eJPT - Windows IIS Server WebDav Metasplit Walkthrough & Insights"
 date: 2025-03-31 00:00:00 - 0500
 categories: [ eJPT , Lab , Vulnerability Assessment]
 tags: [Footprinting, Easy]
+image:
+    path: /assets/img/2.gif
+    alt: image
 ---
 
 ---
