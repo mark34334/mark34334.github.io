@@ -18,7 +18,7 @@ Skill Check Labs are interactive, hands-on exercises designed to validate the kn
 
 ### Lab Environment
 
-A website is accessible at **http://target.ine.local**. Perform reconnaissance and capture the following flags.
+A website is accessible at `**http://target.ine.local**`. Perform reconnaissance and capture the following flags.
 
 - **Flag 1:** This tells search engines what to and what not to avoid.
 - **Flag 2:** What website is running on the target, and what is its version?
