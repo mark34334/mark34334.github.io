@@ -1,6 +1,6 @@
 ---
 title: "eJPT - Assessment Methodologies: Information Gathering CTF 1"
-date: 2025-05-19 00:00:00 - 0500
+date: 2025-05-18 00:00:00 - 0500
 categories: [ eJPT , Lab , Vulnerability Assessment]
 tags: [Footprinting, Easy]
 image:
