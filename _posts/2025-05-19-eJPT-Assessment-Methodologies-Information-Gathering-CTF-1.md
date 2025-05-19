@@ -4,7 +4,7 @@ date: 2025-05-19 00:00:00 - 0500
 categories: [ eJPT , Lab , Vulnerability Assessment]
 tags: [Footprinting, Easy]
 image:
-    path: /assets/img/2.gif
+    path: /assets/img/1.gif
     alt: image
 ---
 
