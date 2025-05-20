@@ -3,9 +3,7 @@ title: "eJPT - Assessment Methodologies: Footprinting and Scanning CTF 1"
 date: 2025-05-20 00:00:00 - 0500
 categories: [ eJPT , Lab , Vulnerability Assessment]
 tags: [Footprinting, Easy]
-image:
-    path: /assets/img/1.gif
-    alt: image
+
 ---
 
 ### Overview:
@@ -14,7 +12,7 @@ Reconnaissance is the initial phase of a penetration testing process where infor
 
 This lab is designed to test your knowledge and skills in performing reconnaissance and identifying hidden information on a target web server.
 
-# Lab Environment
+### Lab Environment
 
 In this lab environment, you will be provided with GUI access to a Kali Linux machine. The target machine will be accessible at **http://target.ine.local**.
 
@@ -27,7 +25,7 @@ In this lab environment, you will be provided with GUI access to a Kali Linux ma
 - **Flag 3**: Anonymous access sometimes leads to forgotten treasures. Connect and explore the directory; you might stumble upon something valuable.
 - **Flag 4**: A well-named database can be quite revealing. Peek at the configurations to discover the hidden treasure.
 
-# Tools
+### Tools
 
 The best tools for this lab are:
 

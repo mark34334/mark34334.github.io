@@ -14,7 +14,7 @@ The first step is to find the ip address of the target machine for that we are u
 
 Before ever we starting here is the main lab environment and the question that we are have to found in that room 
 
-# Lab Environment
+### Lab Environment
 
 A Linux machine is accessible at **target.ine.local**. Identify the services running on the machine and capture the flags. The flag is an md5 hash format.
 
@@ -27,7 +27,7 @@ A Linux machine is accessible at **target.ine.local**. Identify the services ru
 
 - /root/Desktop/wordlists
 
-# Tools
+### Tools
 
 - Nmap
 - Metasploit
