@@ -1,11 +1,9 @@
 ---
 title: "eJPT - Assessment Methodologies: Enumeration CTF 1"
-date: 2025-05-20 00:00:00 - 0500
+date: 2025-05-20 00:00:00 - 0600
 categories: [ eJPT , Lab , Vulnerability Assessment]
 tags: [Footprinting, Easy]
-image:
-    path: /assets/img/1.gif
-    alt: image
+
 ---
 
 The first step is to find the ip address of the target machine for that we are using this command to list the ip address form the hosts files `cat /etc/hosts`  then starting the `postgresql` for the msfconsole so that the service can run more effectively.
