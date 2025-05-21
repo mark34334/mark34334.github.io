@@ -3,9 +3,7 @@ title: "eJPT - Assessment Methodologies: Footprinting and Scanning CTF 1"
 date: 2025-05-20 00:00:00 - 0500
 categories: [ eJPT , Lab , Vulnerability Assessment]
 tags: [Footprinting, Easy]
-image:
-    path: /assets/img/1.gif
-    alt: image
+
 ---
 
 ### Overview:
