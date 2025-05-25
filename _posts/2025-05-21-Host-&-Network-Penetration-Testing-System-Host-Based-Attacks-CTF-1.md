@@ -1,5 +1,5 @@
 ---
-title: "Host & Network Penetration Testing: System-Host Based Attacks CTF 1"
+title: "eJPT - Host & Network Penetration Testing: System-Host Based Attacks CTF 1"
 date: 2025-05-21 00:00:00 - 0500
 categories: [ eJPT , Lab , Vulnerability Assessment]
 tags: [Footprinting, Easy]
