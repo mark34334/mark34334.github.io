@@ -22,7 +22,7 @@ Skill Check Labs are interactive, hands-on exercises designed to validate the kn
 
 # Lab Environment
 
-In this lab environment, you will be provided with GUI access to a Kali Linux machine. Two machines are accessible at **[http://target1.ine.local](http://target1.ine.local)** and **[http://target2.ine.local](http://target2.ine.local)**.
+In this lab environment, you will be provided with GUI access to a Kali Linux machine. Two machines are accessible at (http://target1.ine.local) and (http://target2.ine.local).
 
 **Objective:** Perform system/host-based attacks on the target and capture all the flags hidden within the environment.
 
