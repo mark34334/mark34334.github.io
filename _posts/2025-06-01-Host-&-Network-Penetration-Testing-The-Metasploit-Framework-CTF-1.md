@@ -1,5 +1,5 @@
 ---
-title: "eJPT - Host & Network Penetration Testing: The Metasploit Framework CTF1"
+title: "eJPT - Host & Network Penetration Testing: The Metasploit Framework CTF 1"
 date: 2025-06-01 00:00:00 - 0500
 categories: [ eJPT , Lab , Vulnerability Assessment]
 tags: [Footprinting, Easy]
