@@ -3,9 +3,7 @@ title: "eJPT - Host & Network Penetration Testing: System-Host Based Attacks CTF
 date: 2025-05-25 00:00:00 - 0500
 categories: [ eJPT , Lab , Vulnerability Assessment]
 tags: [Footprinting, Easy]
-image:
-    path: /assets/img/1.gif
-    alt: image
+
 ---
 
 ## Overview:
