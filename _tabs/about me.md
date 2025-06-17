@@ -7,7 +7,7 @@ order: 4
 Hi, I'm Loki!,  Welcome to my personal website and blog. Here, I share my journey and experiences in cybersecurity, including detailed walkthroughs of vulnerable machines on Hack The Box and other platforms. My goal is to provide insightful content that helps others learn and improve their skills in the field of cybersecurity. 
 
 > If you'd like to explore my portfolio, you can check it out here:  
- 👉 <a href="https://mark34334.github.io/Terminal-portfolio/" target="_blank" rel="noopener noreferrer">Terminal Portfolio</a>
+ 👉 <a href="https://mark34334.github.io/terminal-portfolio/" target="_blank" rel="noopener noreferrer">Terminal Portfolio</a>
 
 
 
