@@ -402,4 +402,4 @@ root.txt
 
 ```
 
-With that this gets rooted! `the quieter you become the more you can hear`
+With that this gets rooted! `the queter you become the more you can hear`
